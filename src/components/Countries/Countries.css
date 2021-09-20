@@ -1,0 +1,15 @@
+.countries-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 6px;
+    margin: 10px;
+    /* padding: 5px; */
+}
+
+.heading {
+    padding: 5px;
+    border: 2px solid blue;
+    margin: 20px auto;
+    background-color: lightgray;
+    color: green;
+}
